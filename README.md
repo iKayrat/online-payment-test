@@ -19,7 +19,7 @@ checkouReq := &CheckouRequest{
 
 
 ```go
-// Set signature convert struct to map and 
+// Set signature convert struct to map and generates signature
 func (c *CheckouRequest) SetSignature(password string) {
 	params := structs.Map(c)
 	var keys []string
