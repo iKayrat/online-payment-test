@@ -2,6 +2,9 @@
 It is a simple go application, which includes logic of generating signature for FONDY.
 
 
+I use this program only for generate and send to FONDY's API. Also I have a another server, which created with Gin framework for getting response.
+
+
 ```go
 // request interface
 checkouReq := &CheckouRequest{
